@@ -8,7 +8,7 @@ Theoritical time complexity = O(n^3)
 int ** add(int **arr1,int **arr2,int size){
 // add two matrices arr1 and arr2 of dimension size x size and returns the result matrix 
 	int i,j;
-	for(i=0;i<size;i++){
+	for(i =0;i<size;i++){
 		for(j=0;j<size;j++)
 		{			
 			arr1[i][j] = arr1[i][j] + arr2[i][j];					
