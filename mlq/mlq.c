@@ -93,7 +93,7 @@ return -1;
 }
 int check(double data[TASKN]){
 int i;
-for(i=0;i<TASKN;i++){
+for(i =0;i<TASKN;i++){
 	int val=data[i];
 	if(val==0||val==1){
 		return 1;}
