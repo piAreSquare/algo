@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//max subarray problem
 void CMaxSub(int arr[],int low,int mid,int high,int* cl,int* ch,int *cs){
 	
    int Ls = -100000;
