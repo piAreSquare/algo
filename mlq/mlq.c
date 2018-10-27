@@ -150,7 +150,7 @@ data[3][i]=dum;
 
 printf("GIVEN INPUTS\n");
 printf("Task ID\tEXEXUTION TIME\t ARRIVAL TIME\tPRIORITY\n");
-for(i=0;i<TASKN;i++)
+for(i =0;i<TASKN;i++)
       printf("%0.0f\t%.2f\t\t%0.2f\t\t %0.0f \t%0.0f\n",data[0][i],data[1][i],data[2][i],data[3][i],data[4][i]);
 
 
