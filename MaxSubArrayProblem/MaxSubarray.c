@@ -3,7 +3,7 @@
 void CMaxSub(int arr[],int low,int mid,int high,int* cl,int* ch,int *cs){
 	
    int Ls = -100000;
-   int sum=0;
+   int sum =0;
       int i;
       for(i=mid;i>=low;i--){
       	sum = sum+arr[i];
