@@ -7,7 +7,7 @@ int ** add(int **arr1,int **arr2,int size,int bit){
 	int i,j;
 	
 int **arr  = (int **)malloc(size * sizeof(int *));
-for (i=0; i<size; i++)
+for (i =0; i<size; i++)
      {
 		    arr[i] = (int *)malloc(size * sizeof(int));
             
