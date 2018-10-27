@@ -271,7 +271,7 @@ printf("---------array2---------\n");
 
 
 for(i=0;i<s;i++){
-	for(j=0;j<s;j++){
+	for(j =0;j<s;j++){
 
 	printf("%d\t",arr2[i][j]);
 
